@@ -1,0 +1,149 @@
+html    {
+    position: relative;
+}
+body{
+    background-color:#3aa5a4;
+}
+.Aboutme1 , .project , .Socialnetwork , .work , .language ,
+.education , .contact {
+    background-color: white;
+    padding: 40px;
+    margin: 50px;
+    font-family: Arial, sans-serif;
+    border-radius: 0.3em;
+
+}
+p{
+    color: grey;
+    font-size: 140%;
+}
+.me{
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 60px 0 40px;
+    margin: 0;
+}
+.projects{
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+}
+.clear { 
+    clear: left; 
+    display: block;
+} 
+.Aboutme1 p {
+    margin-left: 20%;
+    margin-right: 22%;
+    margin-top: -200px;
+    font-size: large;
+    color: grey;
+}
+.Aboutme1 img {
+    width: 200px;
+    height:200px;
+}
+h1
+{ 
+    font-size: 200%;
+    
+}
+h2{ 
+    font-size: 180%;
+    
+}
+h3
+{
+    font-size: 150%;
+    color: black;
+}
+.edu{
+    float: left;
+    width: 33.33%;
+}
+h4{
+    font-size: 140%;
+    
+}
+.lang{
+    float: left;
+    width: 33.33%;
+}
+.inline {
+    font-weight: bold;
+    color: black;
+    font-size: 120%;
+    position: absolute;
+    padding-left: 1.5em;
+    top: 2px;
+}
+.language p{
+    font-size: 120%;
+    color: grey;
+}
+.Socialnetwork{
+    /* float: left; */
+    font-size: 78%;
+    overflow: hidden;
+
+}
+.social {
+    float: left;
+    width: 33.33%;
+    position: relative;
+    margin-top: 2em;
+}
+.social img {
+    width: 2em;
+    height: 2em;
+}
+.button{
+    border-radius: 1.5em;
+    width: 10em;
+    height: 3em;
+    background-color: black;
+    color: white;
+}
+.input{
+    background-color: #eee;
+    height: 3em; ;
+    width: 67em;;
+    border-radius: 0.3em;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    padding-top: 3px;
+    font-size: large;
+}
+.textarea{
+    height: 15em; ;
+    width: 60.3em;;
+    border-radius: 0.3em;
+    border: none;
+    outline: none;
+    background-color: #eee;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: x-large;
+}
+.bold{
+    font-weight: bolder;
+    color: black;
+}
+#Solicode{
+    color: white;
+    text-align: center;
+}
+.backgorund {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("PICT/ME.jpg");
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 20%;
+}
